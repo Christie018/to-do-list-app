@@ -10,7 +10,7 @@ import { ToDo } from '../../interfaces/toDoList.model';
   imports: [CommonModule]
 })
 
-export abstract class ToDoListItemComponent {
+export class ToDoListItemComponent {
   @Input() todo: ToDo = {
     task: '',
     completed: false,
